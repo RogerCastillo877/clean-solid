@@ -24,9 +24,6 @@ class Product {
   };
 
   toString() {
-    // if( this.name.length <= 0 ) throw new Error('Name is empty');
-    // if( this.price <= 0 ) throw new Error('Price is zero');
-    // if( this.size.length <= 0 ) throw new Error('Size is empty');
 
     if( !this.isProductReady ) return;
 
